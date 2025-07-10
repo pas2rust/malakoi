@@ -1,0 +1,23 @@
+[package]
+name = "malakoi"
+version = "0.0.1"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/pas2rust/malakoi"
+readme = "README.md"
+exclude = [
+    "tests/*",
+    "tests",
+    "main.rs"
+]
+categories = ["no-std", "science", "mathematics", "embedded"]
+description = "Procedural macro for mathematical operations on structs"
+keywords = ["math", "proc-macro", "linear-algebra", "calculations", "no-std"]
+authors = ["pas2rust <pas2000@proton.me>"]
+homepage = "https://github.com/pas2rust/malakoi"
+documentation = "https://docs.rs/malakoi"
+
+[lib]
+proc-macro = true
+
+[dependencies]
