@@ -28,8 +28,7 @@ Malakoi is a **Rust crate for advanced procedural macros and utility components*
 Add Malakoi to your `Cargo.toml`:
 
 ```toml
-[dependencies]
-malakoi = "0.0.1"
+cargo add malakoi
 ```
 
 ```rust
