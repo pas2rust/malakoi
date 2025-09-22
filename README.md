@@ -27,7 +27,7 @@ Malakoi is a **Rust crate for advanced procedural macros and utility components*
 
 Add Malakoi to your `Cargo.toml`:
 
-```toml
+```bash
 cargo add malakoi
 ```
 
